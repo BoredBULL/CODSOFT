@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: darkblue;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(202, 111, 0);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: darkblue;
+    font-size: 1.02rem;
+    text-decoration: underline;
+}
+
+.left{
+    font-size: 1.7rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstSection > div{
+    width: 32%;
+}
+
+.leftSection{
+    font-size: 3rem;
+    margin: 80px 50px;
+}
+
+.rightSection img{
+    width: 120%;
+    margin: -80px -180px;
+}
+
+.purple{
+    color: rgb(0, 215, 387);
+}
+
+.text-gray{
+    color: lightslategray;
+}
+
+#element{
+    color: rgb(0, 215, 387);
+}
+
+.secondSection{
+    max-width: 83vw;
+    margin: auto;
+    height: 160vh;
+    justify-content: space-around;
+}
+
+hr{
+    border: 0;
+    background-color: rgb(0, 215, 387);
+    height: 1px;
+    margin: 40px 84px;
+}
+
+.secondSection h1{
+    font-size: 2rem;
+}
+
+.secondSection .box{
+    background: skyblue;
+    display: flex;
+    width: 85vw;
+    height: 2px;
+    margin: 58px 0;
+}
+
+.secondSection .box1{
+    display: flex;
+    margin-top: 355px;
+}
+
+.secondSection .box2{
+    display: flex;
+    margin: 27px 0;
+}
+
+.secondSection .projects{
+    margin: -20px 50px;
+}
+
+.secondSection .box3{
+    background: skyblue;
+    display: flex;
+    width: 85vw;
+    height: 2px;
+}
+
+.secondSection img{
+    max-width: 15%;
+    margin: -56px 350px;
+}
+
+#about{
+    padding: 80px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 50%;
+}
+
+.about-col-1 img{
+    max-width: 50%; 
+    margin-left: 100px;
+    border-radius: 80px;
+    border: 2px solid skyblue;
+}
+
+.about-col-2{
+    flex-basis: 50%;
+}
+
+.sub-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: white;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.tab-contents.active-tab::after{
+    margin: 0;
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 0;
+}
+
+.tab-contents{
+    display: none;
+}
+
+.tab-contents.active-tab{
+    display: block;
+}
+
+#contact{
+    margin-left: 80px;
+    flex-basis: 35%;
+}
+
+.contact-right{
+    margin: -80px -180px;
+    flex-basis: 60%;
+}
+
+.btn.btn2{
+    display: inline-block;
+    border: 2px solid skyblue;
+    color: skyblue;
+    border-radius: 10px;
+    font-size: 19px;
+    background-color: black;
+}
+
+.btn.btn2:hover{
+    color: orange;
+    border: 2px solid orange;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input , form textarea{
+    width: 100%;
+    border: 2px solid skyblue;
+    outline: none;
+    background: black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    color: skyblue;
+}
+
+form input:hover , form textarea:hover{
+    color: orange;
+    border: 2px solid orange;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: black;
+    color: white;
+    font-family: monospace;
+    margin-top: 180px;
+}

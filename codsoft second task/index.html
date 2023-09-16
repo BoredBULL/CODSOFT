@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins:wght@700&family=Quicksand:wght@600&family=Rubik+Iso&display=swap" rel="stylesheet">
+    <title>Mayank - Developer Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">Mayank's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                Hi! My name is <span class="purple">Mayank</span>
+                <div>I am a passionate</div>
+                <div><span id="element"></span></div>
+            </div>
+            <div class="rightSection">
+                <img src="png/png1.png" alt="remote image">
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1"><img src="png/New-file.gif"></div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello, I'm Mayank Minda, and I'm passionate about the ever-evolving world of technology. As a dedicated technical student, I've embarked on a journey to explore the limitless possibilities of the digital age. My fascination with technology started at an early age and has since grown into a full-fledged commitment to mastering the intricacies of this dynamic field.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('eduction')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Developer</span></li>
+                                <li><span>3D Animator</span></li>
+                                <li><span>Web Designer</span></li>
+                                <li><span>Game Developer</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Designing Games and websites</span></li>
+                                <li><span>Creating Animations Since 2022</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>DPS Siliguri(X-XII)</span></li>
+                                <li><span>Currently studying Btech IP University Delhi</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection" id="projects">
+            <span class="text-gray">What I have done!!</span>
+            <h1>My Projects</h1>
+            <img src="png/vecteezy_software-engineer-png-graphic-clipart-design_20962987_96.png" alt="remote image">
+
+            <div class="box">
+                <div class="projects">
+                    <video width="300px" height="300px" controls="controls">
+                    <source src="projects/0000-0213.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="projects">
+                    <video width="300px" height="300px" controls="controls">
+                    <source src="projects/0001-0250.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="projects">
+                    <video width="300px" height="300px" controls="controls">
+                    <source src="projects/cube animation.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="projects">
+                    <video width="300px" height="300px" controls="controls">
+                    <source src="projects/dancing joker with sound.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="projects">
+                    <video width="300px" height="300px" controls="controls">
+                    <source src="projects/lady dancing on phoen.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="projects">
+                    <video width="300px" height="300px" controls="controls">
+                    <source src="projects/mayank word.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="projects">
+                    <video width="300px" height="300px" controls="controls">
+                    <source src="projects/ocean scene.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="projects">
+                    <video width="300px" height="300px" controls="controls">
+                    <source src="projects/robot dancee.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="projects">
+                    <video width="300px" height="300px" controls="controls">
+                    <source src="projects/spider animation.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <div class="sub-title">Contact Me</div>
+                        <p>mminda4444@gmail.com</p>
+                        <p>0123456789</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/mayank.minda.75" target="_blank"><img src="png/facebook.png" style="max-width: 4%;" ></a>
+                            <a href="https://www.instagram.com/_.mayank_.minda/" target="_blank"><img src="png/instagram.png" style="max-width: 4%;"></a>
+                            <a href="https://www.linkedin.com/in/mayank-minda-3ab34724b/" target="_blank"><img src="png/linkedin.png" style="max-width: 5%;"></a>
+                            <a href="https://twitter.com/MindaMayank" target="_blank"><img src="png/twitter.png" style="max-width: 5%;" ></a>
+                        </div>
+                    </div>
+                    <div class="contact-right" style="margin: -150px 450px;">
+                        <form>
+                            <input type="text" name="name" placeholder="Enter Your Name" required>
+                            <input type="text" name="email" placeholder="Enter Your Email" required>
+                            <textarea name="message" rows="10" placeholder="Enter Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;- www.mayankporfolio.com - All Rights Reserved</p>
+        </div>
+    </main>
+    <script src="js/opentab.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', '3D Animator' , 'Game Developer' , 'Web Designer'],
+          typeSpeed: 50,
+        });
+    </script>    
+</body>
+</html>
