@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 56px;
+  background-color: darkblue;
+  color: skyblue;
+}
+
+.row {
+  margin: 8px 0;
+}
+
+.row input {
+  margin: 0;
+  padding: 10px 0px;
+  max-width: 100%;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: darkblue;
+  color: skyblue;
+}
+
+.clear {
+  width: 248px;
+  font-size: 24px;
+  padding: 0;
+}
